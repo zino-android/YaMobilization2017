@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zino.translatermobilizationmvp.screens.history.favorites.view.FavoritesFragment">
+
+    <EditText
+        android:id="@+id/find_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:layout_margin="0dp"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textCursorDrawable="@null"
+        android:hint="Найти в избранном"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+
+        android:drawablePadding="4dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/clear_image_view"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="4dp"
+        android:visibility="invisible"
+        android:src="@drawable/close"
+        android:layout_centerVertical="false"
+        android:layout_alignTop="@+id/find_edit_text"
+        android:layout_alignBottom="@+id/find_edit_text"
+        android:layout_alignRight="@+id/find_edit_text"
+        />
+
+    <ListView
+        android:layout_below="@+id/find_edit_text"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/no_favorites_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Нет переводов в избранном"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

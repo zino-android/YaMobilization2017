@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffdc61</color>
+    <color name="colorPrimaryDark">#e1c255</color>
+    <color name="colorAccent">#ffcc00</color>
+    <color name="colorGray">#cbcbcb</color>
+    <color name="divider">#e5e5e5</color>
+    <color name="translate_edit_text_default_gray">#cccccc</color>
+    <color name="brown">#8d634d</color>
+    <color name="blue">#4b7893</color>
+    <color name="posColor">#a37d92</color>
+    <color name="exampleColor">#798aa8</color>
+    <color name="languageSelectedColor">#f6f5f3</color>
+    <color name="iconsGray">#858e98</color>
+    <color name="ripple_color">#1f000000</color>
+</resources>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.zino.translatermobilizationmvp.screens.history.HistoryViewPagerFragment">
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:background="?attr/colorPrimary"
+            android:elevation="0dp"
+            android:minHeight="?attr/actionBarSize"
+            app:tabIndicatorColor="#383838"
+            app:tabSelectedTextColor="#383838"
+            app:tabTextColor="#907f41"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
+    <ImageButton
+        android:id="@+id/delete_image_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tab_layout"
+        android:layout_alignBottom="@+id/tab_layout"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/delete"
+        android:background="@drawable/circular_ripple"
+        android:scaleType="fitCenter"
+        android:padding="6dp"
+        />
+
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tab_layout"/>
+
+</RelativeLayout>

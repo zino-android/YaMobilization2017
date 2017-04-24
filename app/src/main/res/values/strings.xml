@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TranslaterMobilization</string>
+    <string name="translater">Переводчик</string>
+    <string name="history">История</string>
+    <string name="settings">Настройки</string>
+
+    <string name="translate_api_key" translatable="false">trnsl.1.1.20170315T092256Z.f58b16a070de6f3f.ed8cdf87417b1aefa42af52675ef3b73e5b6856c</string>
+    <string name="dictionary_api_key" translatable="false">dict.1.1.20170315T100532Z.20b8c11295de38a6.b7bee8438c083ff52ccf86f01bae9ae54255432a</string>
+    <string name="speech_sdk_api_key" translatable="false">86ed801b-65b2-48cc-bc4b-c56d3f5ae4f4</string>
+    <string name="hint_edit_text_translate">Введите текст</string>
+    <string name="text_language">Язык текста</string>
+    <string name="translate_language">Язык перевода</string>
+
+    <string name="error_text">Произошла ошибка, попробуйте еще раз</string>
+    <string name="history_tab">История</string>
+    <string name="favorites_tab">Избранное</string>
+</resources>

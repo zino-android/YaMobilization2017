@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <bitmap android:src="@drawable/crop_free"
+            android:tint="@color/colorPrimary"
+            />
+    </item>
+    <item android:state_focused="true" >
+        <bitmap android:src="@drawable/crop_free"
+            android:tint="@color/colorPrimary"
+            />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/crop_free"
+            android:tint="@color/iconsGray"
+            />
+    </item>
+</selector>
